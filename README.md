@@ -78,6 +78,19 @@ Sustainable algorithm design considers:
 
 By evaluating these trade-offs and focusing on sustainable practices, algorithm implementations become robust, efficient, and suitable for practical, long-term use.
 
+## Summary Table of Algorithms
+
+| Algorithm                | Time Complexity (Avg) | Space Complexity | Key Notes                                |
+|--------------------------|----------------------|------------------|-----------------------------------------|
+| Fibonacci (Naive Rec)    | O(2^n)               | O(n) (call stack)| Very inefficient for large n            |
+| Fibonacci (DP)           | O(n)                 | O(n)             | Efficient with memoization               |
+| Merge Sort               | O(n log n)           | O(n)             | Stable, good for large datasets         |
+| Quick Sort               | O(n log n)           | O(log n)         | Fast in practice, worst-case O(n^2)     |
+| Insertion Sort           | O(n^2)               | O(1)             | Efficient for small or nearly sorted data |
+| Bubble Sort              | O(n^2)               | O(1)             | Simple but inefficient                   |
+| Selection Sort           | O(n^2)               | O(1)             | Performs well on small lists             |
+| Binary Search            | O(log n)             | O(1)             | Requires sorted input                     |
+
 
 ## Key Learnings
 
